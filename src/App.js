@@ -4,6 +4,7 @@ import CompC from './CompC';
 import { UseProvider } from './useContext';
 import PostData from './PostData';
 import CompA from './CompA';
+import ToDo from './ToDo';
 
 function App() {
   return (
@@ -12,11 +13,12 @@ function App() {
       <CompC></CompC>
       </UseProvider> */}
       {/* <PostData></PostData> */}
-      <UseProvider value="sending data throgh context hook ">
+      {/* <UseProvider value="sending data throgh context hook ">
       <CompA></CompA>
-      </UseProvider>
+      </UseProvider> */}
      
-     
+     {/* <ToDo></ToDo> */}
+     <PostData></PostData>
     </div>
   );
 }

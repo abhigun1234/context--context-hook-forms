@@ -1,30 +1,6 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
-function PostData(props) {
-  const [userData,setData] =useState({userId:'',title:'',body:''})
-const [response,setResponse]=useState('')
-  function  postData(e){
-
-            console.log("person data",userData)
-            e.preventDefault()
-//             axios.post('https://jsonplaceholder.typicode.com/posts',userData).then(res=>{
-//             console.log("posted",res.status)
-//             setResponse(res.status)
-//    }).catch(error=>{
-
-//    })
-
-
-            console.log("person data",userData)
-            axios.post('https://jsonplaceholder.typicode.com/posts',userData).then(response=>{
-
-                console.log("response",response)
-                setResponse(response.status)
-            }).catch(error=>{
-                console.log("error",error)
-            })
-   }
+function ToDoDisplay(props) {
     return (
         <div>
             <div>
@@ -54,4 +30,4 @@ const [response,setResponse]=useState('')
     );
 }
 
-export default PostData;
+export default ToDoDisplay;
