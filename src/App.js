@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import CompC from './CompC';
+import { UseProvider } from './useContext';
+import PostData from './PostData';
+import CompA from './CompA';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <UseProvider value="abhishek">
+      <CompC></CompC>
+      </UseProvider> */}
+      {/* <PostData></PostData> */}
+      <UseProvider value="sending data throgh context hook ">
+      <CompA></CompA>
+      </UseProvider>
+     
+     
     </div>
   );
 }
