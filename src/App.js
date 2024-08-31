@@ -5,13 +5,20 @@ import { UseProvider } from './useContext';
 import PostData from './PostData';
 import CompA from './CompA';
 import ToDo from './ToDo';
+import CompG from './CompG';
+import CompH from './CompH';
+
 
 function App() {
   return (
     <div className="App">
-      <UseProvider value="abhishek">
+      
+      <UseProvider value="hi all how are you">
+        <CompG></CompG>
+      </UseProvider>
+      {/* <UseProvider value="abhishek">
       <CompC></CompC>
-      </UseProvider> 
+      </UseProvider>  */}
       {/* <PostData></PostData> */}
       {/* <UseProvider value="sending data throgh context hook ">
       <CompA></CompA>
