@@ -9,13 +9,13 @@ import ToDo from './ToDo';
 function App() {
   return (
     <div className="App">
-      {/* <UseProvider value="abhishek">
+      <UseProvider value="abhishek">
       <CompC></CompC>
-      </UseProvider> */}
+      </UseProvider> 
       {/* <PostData></PostData> */}
       {/* <UseProvider value="sending data throgh context hook ">
       <CompA></CompA>
-      </UseProvider> */}
+      </UseProvider>
      
      {/* <ToDo></ToDo> */}
      <PostData></PostData>
