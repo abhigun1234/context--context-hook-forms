@@ -10,11 +10,14 @@ import CompH from './CompH';
 
 
 function App() {
+  const obj={name:"ravi"}
   return (
     <div className="App">
       
-      <UseProvider value="hi all how are you">
-        <CompG></CompG>
+      
+      <UseProvider value='obj'>
+        {/* <CompG></CompG> */}
+        <CompA></CompA>
       </UseProvider>
       {/* <UseProvider value="abhishek">
       <CompC></CompC>
@@ -25,7 +28,7 @@ function App() {
       </UseProvider>
      
      {/* <ToDo></ToDo> */}
-     <PostData></PostData>
+     {/* <PostData></PostData> */}
     </div>
   );
 }

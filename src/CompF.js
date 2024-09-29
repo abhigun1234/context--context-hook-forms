@@ -2,7 +2,7 @@ import React,{useContext} from 'react';
 import { UseConsumer, UseContext } from './useContext';
 
 function CompF(props) {
-    const data=useContext(UseContext)
+     const data=useContext(UseContext)
     // need to consume the data
     return (
         <div>
@@ -10,7 +10,7 @@ function CompF(props) {
              {
 
                 (data)=>{
-                 return <h1> CompF: {data}</h1>
+                 return <h1> ------CompF: {data}</h1>
                 }
              }
             </UseConsumer> */}
