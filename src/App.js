@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       
       
-      <UseProvider value='obj'>
+      <UseProvider value='sahin'>
         {/* <CompG></CompG> */}
         <CompA></CompA>
       </UseProvider>
